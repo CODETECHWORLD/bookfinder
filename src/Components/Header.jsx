@@ -20,7 +20,7 @@ export default function Header() {
           >
             Favorites
           </Link>
-          <Link
+          {/* <Link
             to="/genres"
             className={`px-4 py-2 rounded-full text-sm ${
               location.pathname === "/genres"
@@ -29,7 +29,7 @@ export default function Header() {
             }`}
           >
             Genres
-          </Link>
+          </Link> */}
         </nav>
       </div>
     </header>
